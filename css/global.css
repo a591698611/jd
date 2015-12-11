@@ -1,0 +1,7 @@
+@charset "utf-8";
+body,p,div,a,ul,ol,li,dl,dd,dt,li,h1,h2,h3,h4,h5,h6,input,table,form,textarea,iframe,button,select,th,td,table,fieldset{margin:0;padding:0;}
+body{font-size:14px;color:#666;font-family:宋体,微软雅黑,Arial,Verdana,arial,serif;word-break:break-all;}
+ul,ol,li{list-style-type:none}
+a{text-decoration: none;color:#666;}
+a:hover{text-decoration:none;color:#c00;}
+img{border:0}

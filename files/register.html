@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link href="../css/global.css" type="text/css" rel="stylesheet">
+    <link href="../css/register.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div id="top">
+    <header>
+        <ul id="daohang">
+            <li><a href="javascript:;">收藏京东</a></li><li>
+            <a href="login.html">你好，请登陆</a>&nbsp;<a href="register.html">免费注册</a></li><span class="xian">|</span><li>
+            <a href="javascript:;">我的订单</a></li><span class="xian">|</span><li>
+            <a href="javascript:;">手机京东</a></li><span class="xian">|</span><li class="tanchu">
+            <a href="javascript:;">客户服务</a><div class="daoli">></div>
+                <ul id="fuwutc">
+                    <li><a href="javascript:;">常见问题</a></li><li>
+                    <a href="javascript:;">售后服务</a></li><li>
+                    <a href="javascript:;">在线客服</a></li><li>
+                    <a href="javascript:;">投诉中心</a></li><li>
+                    <a href="javascript:;">客服邮箱</a></li>
+                </ul>
+            </li><span class="xian">|</span><li class="tanchu">
+            <a href="javascript:;">网站导航</a><div class="daoli">></div>
+            <ul id="daohangtc">
+                <li>
+                    <h4>特色栏目</h4><ul class="daohangtc_a">
+                        <li><a href="javascript:;">为我推荐</a></li><li>
+                        <a href="javascript:;">视频购物</a></li><li>
+                        <a href="javascript:;">京东社区</a></li><li>
+                        <a href="javascript:;">校园频道</a></li><li>
+                        <a href="javascript:;">在线读书</a></li><li>
+                        <a href="javascript:;">装机大师</a></li><li>
+                        <a href="javascript:;">礼品卡</a></li></ul>
+                </li><li>
+                <h4>企业服务</h4><ul class="daohangtc_a"><li><a href="javascript:;">企业客户</a></li><li><a href="javascript:;">办公直通车</a></li></ul></li><li>
+                <h4>旗下服务</h4><ul class="daohangtc_a"><li><a href="javascript:;">360TOP</a></li><li><a href="javascript:;">迷你挑</a></li><li><a href="javascript:;">English Site</a></li></ul></li>
+            </ul>
+            </li>
+        </ul>
+    </header>
+</div>
+<div id="middle">
+    <section id="logo">
+        <a href="../index.html"><img src="../images/register/logo.png"></a><h1>欢迎注册</h1>
+        <ul id="xuanze"><li class="active">个人用户</li><li>企业用户</li><li>International Customers</li></ul>
+        <div class="yijing"><span>我已经注册，现在就<a href="javascript:;">登陆</a></span><span><a href="javascript:;">English</a></span></div>
+    </section>
+    <section id="register">
+        <form name="form">
+            <ul id="register_ul">
+                <li><div class="qian"><span class="xing">*</span><span class="zi">用户名：</span></div><input type="text" class="kuang" id="yonghu" name="user" maxlength="20" />
+                    <span class="info info-user">请输入用户名，4-20位字符，支持汉字、字母、数字</span>
+                    <span class="error error-user">输入不合法，请重新输入</span>
+                    <span class="succ succ-user">可用!</span>
+                    <span class="jianceuser">正在检测用户名...</span>
+                </li>
+                <li><div class="qian"><span class="xing">*</span><span class="zi">请设置密码：</span></div><input type="password" class="kuang" id="mima1" name="pass" maxlength="20" />
+                    <span class="info info-pass">
+                    <p>
+                    安全级别：<strong class="s">■</strong><strong class="s">■</strong><strong class="s">■</strong>
+                    <strong class="s" style="font-weight: normal"></strong>
+                    </p>
+                    <p><strong class="q">○</strong>6-20个字符</p>
+                    <p><strong class="q">○</strong>包含大小写字母，数字和非空格字符</p>
+                    <p><strong class="q">○</strong>大小写字母，数字、非空字符，2种以上</p>
+                    </span>
+                    <span class="error error-pass">输入不合法，请重新输入</span>
+                    <span class="succ succ-pass">可用!</span>
+                </li>
+                <li><div class="qian"><span class="xing">*</span><span class="zi">请确认密码：</span></div><input type="password" class="kuang" id="mima2" name="notpass" maxlength="20" />
+                    <span class="info info-notpass">请再次输入密码</span>
+                    <span class="error error-notpass">密码不一致，请重新输入</span>
+                    <span class="succ succ-notpass">可用!</span>
+                </li>
+                <li><div class="qian"><span class="xing">*</span><span class="zi">出生年月：</span></div>
+                    <select name='year' class="year">
+                        <option value="0">-年-</option>
+                    </select>
+                    <select name="month">
+                        <option value="0">-月-</option>
+                    </select>
+                    <select name="day">
+                        <option value="0">-日-</option>
+                    </select>
+                    <span class="error error-birth">出生年月日未选择！</span>
+                </li>
+                <li><div class="qian"><span class="xing">*</span><span class="zi">电子邮箱：</span></div><input type="text" class="kuang" id="email" autocomplete="off" name="email" maxlength="20" />
+                    <span class="info info-email">请输入电子邮箱</span>
+                    <span class="error error-email">电子邮箱格式不正确</span>
+                    <span class="succ succ-email">可用!</span>
+                    <ul class="all-email">
+                        <li><span></span>@qq.com</li>
+                        <li><span></span>@163.com</li>
+                        <li><span></span>@126.com</li>
+                        <li><span></span>@sohu.com</li>
+                        <li><span></span>@gmail.com</li>
+                    </ul>
+                </li>
+                <li><div class="qian"><span class="xing">*</span><span class="zi">验证手机：</span></div><input type="text" class="kuang" id="shouji" autocomplete="off" name="shouji"  maxlength="11" />
+                    <span class="info info-shouji">完成该验证后，您可用该手机<br>号登陆和找回密码</span>
+                    <span class="error error-shouji">手机格式不正确</span>
+                    <span class="succ succ-shouji">可用!</span>
+                </li>
+                <li><div class="qian"><span class="xing">*</span><span class="zi">短信验证码：</span></div><input type="text" class="kuang" id="duanxin" name="yanzhengma" maxlength="4" />
+                    <input type="button" id="yanzhengma" value="获取短信验证码" />
+                    <span class="error error-yanzhengma">短信验证码错误！</span>
+                </li>
+                <li><input type="checkbox" checked="checked" class="checkBox" name="queren"/>我已经阅读并同意<a href="javascript:;" class="xy">《京东用户注册协议》</a></li>
+                <li><input type="button" id="tijiao" value="" /></li>
+            </ul>
+            <div class="shoujizc">
+                <div class="shoujizc_top"><img src="../images/register/shouji.png" /><span>手机快速注册</span></div>
+                <div class="shoujizc_bottom">中国大陆手机用户，编辑短信“<span class="dahong">JD</span>”发送到：<span class="dahong">1069013355500</span></div>
+            </div>
+        </form>
+    </section>
+</div>
+<div id="footer">
+    <footer>
+        <ul>
+            <li><a href="javascript:;">关于我们</a></li><li>
+            <a href="javascript:;">联系我们</a></li><li>
+            <a href="javascript:;">人才招聘</a></li><li>
+            <a href="javascript:;">商家入驻</a></li><li>
+            <a href="javascript:;">广告服务</a></li><li>
+            <a href="javascript:;">手机京东</a></li><li>
+            <a href="javascript:;">友情链接</a></li><li>
+            <a href="javascript:;">销售联盟</a></li>
+        </ul>
+        <p>Copyright©2004-2015  京东JD.com 版权所有</p>
+    </footer>
+    <div class="loading"><p class="zhengzai">正在提交注册中..</p></div>
+    <div class="loading"><p class="wancheng">注册完成</p></div>
+</div>
+<script src="../js/base.js"></script>
+<script src="../js/register.js"></script>
+</body>
+</html>

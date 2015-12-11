@@ -1,0 +1,213 @@
+#top{
+    width: 100%;
+    height: 80px;
+}
+#top header{
+    width: 1000px;
+    margin: 0 auto;
+}
+#top header img{
+    display: inline-block;
+    margin-top: 7px;
+}
+#top header h1{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#middle{
+    background-color: #ee2743;
+    width: 100%;
+    height: 475px;
+}
+#middle article{
+    width: 989px;
+    height: 475px;
+    background: url("../images/login/beijing.jpg") no-repeat 0 0;
+    margin: 0 auto;
+    position: relative;
+    top:0;
+}
+#middle article section#login{
+    width: 350px;
+    height: 320px;
+    background-color: #fff;
+    position: absolute;
+    top:40px;
+    right:0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#middle article section#login .login_body{
+    width: 310px;
+    margin: 0 auto;
+}
+#middle article section#login h2{
+    display: inline-block;
+}
+#middle article section#login #liji{
+    display: inline-block;
+    margin-left: 150px;
+}
+#middle article section#login #liji a{
+    display: inline-block;
+    vertical-align: top;
+}
+#middle article section#login .gonggong{
+    background-color: #fff6d2;
+    border: 1px solid #ffe57d;
+    font-size: 12px;
+    margin: 5px auto;
+    text-align: left;
+    padding: 3px;
+    line-height: 20px;
+}
+#middle article section#login .jinggao{
+    border: 1px solid red;
+    display: none;
+}
+#middle article section#login .gonggong img{
+    display: inline-block;
+    vertical-align: top;
+    margin:0 5px 0 5px;
+}
+#middle article section#login .zhanghao{
+    margin-top: 10px;
+    border:1px solid #bdbdbd;
+    outline: medium;
+}
+#middle article section#login .zhanghao .tou{
+    display: inline-block;
+    vertical-align: top;
+    padding: 11px;
+    border-right:1px solid #bdbdbd;
+    outline: medium;
+}
+#middle article section#login .zhanghao .kuang{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    border:0;
+    padding: 12px 10px;
+    width:250px;
+    outline: medium;
+}
+#middle article section#login .dl{
+    font-size: 13px;
+    margin-top: 15px;
+}
+#middle article section#login .dl .checkb{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1px;
+    margin-right: 5px;
+}
+#middle article section#login .dl span{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+}
+#middle article section#login .dl .mima{
+    margin-left:60px;
+}
+#middle article section#login #denglu{
+    width:100%;
+    height: 35px;
+    margin: 10px auto;
+    outline: rgb(109, 109, 109) none 0;
+    background-color: #e4393c;
+    border:1px solid #e85356;
+    font-size: 20px;
+    color: #fff;
+}
+#middle article section#login .hezuo{
+    font-size: 12px;
+    color:#999;
+    display: block;
+    margin-top: 15px;
+}
+#middle article section#login ul{
+    margin-left: -15px;
+    margin-top: 7px;
+    position: relative;
+    top:0;
+}
+#middle article section#login li{
+    display: inline-block;
+    border-right: 1px solid #d5ccd5;
+    padding-left: 15px;
+    padding-right:15px;
+    position: relative;
+    top:0;
+}
+#middle article section#login li a{
+    color: #666;
+    font-size: 12px;
+}
+#middle article section#login #yidong{
+    border-right: 0;
+    cursor: default;
+}
+#middle article section#login li .daoli{
+    display: inline-block;
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#middle article section#login .qita{
+    border:1px solid #dcdcdc;
+    background-color: #fff;
+    position:absolute;
+    top:1px;
+    left:0;
+    font-size: 12px;
+    padding-left: 14px;
+    padding-bottom: 10px;
+    display: none;
+}
+#middle article section#login .qita .qita_top .daoli{
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    display: inline-block;
+    margin-left: 2px;
+}
+#middle article section#login .qita .qita_body{
+    width: 200px;
+}
+#middle article section#login .qita .qita_body li{
+    display: inline-block;
+    margin-top: 10px;
+    padding-right:0;
+    border-right: 0;
+}
+/*footer*/
+#footer footer{
+    width:100%;
+    height:80px;
+    text-align: center;
+    font-size: 12px;
+}
+#footer footer ul{
+    margin-top: 10px;
+}
+#footer footer li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #666;
+}
+#footer footer li:last-child{
+    border-right:0;
+}
+#footer footer #footertu{
+    margin-top: 20px;
+}
+#footer footer #footertu img{
+    padding-left: 30px;
+}

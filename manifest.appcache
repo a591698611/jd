@@ -1,0 +1,12 @@
+CACHE MANIFEST
+#version 1.2
+
+CACHE:
+css/global.css
+css/style.css
+js/js.js
+js/jquery-2.1.4.min.js
+js/base.js
+
+NETWORK:
+*
