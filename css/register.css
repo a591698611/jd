@@ -1,0 +1,517 @@
+#top{
+    width: 100%;
+    height: 30px;
+
+    background-color: #fafafa;
+}
+#top header #daohang{
+    width: 1000px;
+    height: 30px;
+    margin: 0 auto;
+}
+#top header #daohang>li{
+    display: inline-block;
+    margin-top:3px;
+    border: 1px solid #fff;
+    padding: 4px;
+    position: relative;
+    top:0;
+    z-index: 10;
+}
+#top header #daohang .xian{
+    opacity: 0.5;
+    filter: alpha(opacity:50);
+}
+#top header #daohang li a{
+    color: #333;
+    font-size: 12px;
+    padding: 5px;
+}
+#top header #daohang li a:hover{
+    color: #c00;
+    text-decoration: underline;
+}
+#top header #daohang>li:first-child{
+    margin-right: 450px;
+    border-right: 0;
+}
+#top header #daohang li:last-child{
+    border-right: 0;
+}
+#top header #daohang li .daoli{
+    display: inline-block;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -moz-transition: all 0.1s linear;
+    -webkit-transition: all 0.1s linear;
+    -ms-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+#top header #daohang .tanchu:hover .daoli{
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+#top header #daohang .tanchu #fuwutc{
+    width: 100%;
+    position:absolute;
+    top:24px;
+    left:-1px;
+    text-align: center;
+    margin-right: 0;
+    border:1px solid #ddd;
+    border-top: 0;
+    background-color: #fff;
+    display: none;
+}
+#top header #daohang li #fuwutc li{
+    padding-top: 5px;
+    position: relative;
+    top:0;
+}
+#top header #daohang .tanchu{
+    position: relative;
+    top:0;
+    z-index: 10;
+    background-color: #fff;
+}
+#top header #daohang .tanchu a:hover{
+    text-decoration: none;
+}
+#top header #daohang .tanchu:hover{
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #fff;
+}
+#top header #daohang .tanchu:hover #fuwutc{
+    display:block;
+}
+#top header #daohang #daohangtc{
+    width: 340%;
+    height: 170px;
+    position: absolute;
+    top:24px;
+    left:-176px;
+    background-color: #fff;
+    border:1px solid #ddd;
+    border-top: 0;
+    display: none;
+}
+#top header #daohang #daohangtc>li{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top:0;
+    width: 78px;
+    margin-top: 5px;
+}
+#top header #daohang #daohangtc>li:first-child{
+    margin-left: 10px;
+}
+#top header #daohang #daohangtc .daohangtc_a{
+    position: absolute;
+    left:-5px;
+}
+#top header #daohang #daohangtc .daohangtc_a li{
+    padding-top: 5px;
+}
+#top header #daohang .tanchu:hover #daohangtc{
+    display:block;
+}
+
+
+
+
+#middle{
+    width: 100%
+    height: 630px;
+    overflow: hidden;
+    background-color:#f2f2f2;
+}
+#middle section#logo{
+    width: 1000px;
+    height: 110px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#middle section#logo img {
+    border-right: 1px solid #e0e0e0;
+    margin-top: 25px;
+    padding-right: 15px;
+}
+#middle section#logo h1{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 45px;
+    padding-left: 15px;
+}
+#middle section#logo #xuanze{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: -40px;
+    margin-bottom: -22px;
+}
+#middle section#logo #xuanze li{
+    display: inline-block;
+    margin-left: 10px;
+    padding: 7px 25px;
+    background-color: #f7f7f7;
+    border: 1px solid #dddddd;
+    z-index: 10;
+    cursor: pointer;
+}
+#middle section#logo #xuanze li:hover a{
+    color:#666;
+}
+#middle section#logo #xuanze .active{
+    position: relative;
+    top:1px;
+    padding-top: 11px;
+    color:#e4393c;
+    background-color: #fff;
+}
+#middle section#logo .yijing{
+    display: inline-block;
+    vertical-align:bottom;
+    margin-bottom: -20px;
+    margin-left: 40px;
+    font-size: 13px;
+}
+#middle section#logo .yijing a{
+    font-size: 13px;
+}
+#middle section#logo .yijing span:first-child{
+    margin-right: 20px;
+}
+#middle section#register{
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    height: 500px;
+    position: relative;
+    top:-1px;
+}
+#middle section#register #register_ul{
+    display: inline-block;
+    width: 750px;
+    position: relative;
+    left:0;
+}
+#middle section#register #register_ul li{
+    margin-top: 18px;
+    width: 750px;
+}
+#middle section#register #register_ul .qian{
+    display: inline-block;
+    width: 190px;
+    text-align: right;
+}
+#middle section#register #register_ul .xy{
+    color:#005aa0;
+    font-size: 13px;
+}
+#middle section#register #register_ul li:first-child{
+    margin-top: 35px;
+}
+#middle section#register #register_ul li .xing{
+    display: inline-block;
+    color:#f00;
+    padding: 5px;
+}
+#middle section#register #register_ul li .zi{
+    color: #999;
+    font-size: 16px;
+}
+#middle section#register #register_ul li .info,#middle section#register #register_ul li .error,#middle section#register #register_ul li .succ,#middle section#register #register_ul li .jianceuser{
+    width: 160px;
+    height:37px;
+    padding-left: 50px;
+    line-height: 37px;
+    font-size: 12px;
+    position: absolute;
+    display: none;
+}
+#middle section#register #register_ul li .info{
+    background: url("../images/register/info.png") no-repeat;
+}
+#middle section#register #register_ul li .error{
+    background: url("../images/register/error.png") no-repeat;
+    color:red;
+}
+#middle section#register #register_ul li .succ{
+    background: url("../images/register/succ.png") no-repeat;
+}
+#middle section#register #register_ul li .jianceuser{
+    background: url("../images/register/ajax-loader2.gif") no-repeat 5px center;
+    top:30px;
+    right:50px;
+    font-weight: bold;
+    text-indent: -20px;
+}
+/*用户名*/
+#middle section#register #register_ul li .info-user{
+    top:30px;
+    right:50px;
+    height:50px;
+    line-height: 23px;
+    background: url("../images/register/info-big.png") no-repeat;
+}
+#middle section#register #register_ul li .error-user{
+    top:35px;
+    right:50px;
+}
+#middle section#register #register_ul li .succ-user{
+    top:35px;
+    right:50px;
+}
+/*密码*/
+#middle section#register #register_ul li .info-pass{
+    top:60px;
+    right:20px;
+    width:224px;
+    height:102px;
+    background:#fff url("../images/register/info-biger.png") no-repeat;
+    line-height: 25px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+#middle section#register #register_ul li .info-pass .s{
+    color:#ccc;
+}
+#middle section#register #register_ul li .info-pass .q{
+    font-weight: normal;
+}
+#middle section#register #register_ul li .error-pass{
+    top:93px;
+    right:50px;
+}
+#middle section#register #register_ul li .succ-pass{
+    top:93px;
+    right:50px;
+}
+/*验证密码*/
+#middle section#register #register_ul li .info-notpass{
+    top:148px;
+    right:50px;
+}
+#middle section#register #register_ul li .error-notpass{
+    top:148px;
+    right:50px;
+}
+#middle section#register #register_ul li .succ-notpass{
+    top:148px;
+    right:50px;
+}
+/*出生年月日*/
+#middle section#register #register_ul li .error-birth{
+    top:195px;
+    right:120px;
+}
+/*电子邮箱*/
+#middle section#register #register_ul li .info-email{
+    top:245px;
+    right:160px;
+}
+#middle section#register #register_ul li .error-email{
+    top:245px;
+    right:160px;
+}
+#middle section#register #register_ul li .succ-email{
+    top:245px;
+    right:160px;
+}
+#middle section#register #register_ul .all-email{
+    width: 175px;
+    background-color: #fff;
+    border:1px solid #ccc;
+    border-top: 0;
+    position: absolute;
+    left:190px;
+    display: none;
+}
+#middle section#register #register_ul .all-email li{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #e5edf2;
+    cursor: pointer;
+    margin: 0;
+    padding: 8px;
+    box-sizing: border-box;
+}
+#middle section#register #register_ul .all-email li:last-child{
+    margin: 0;
+}
+/*手机号*/
+#middle section#register #register_ul li .info-shouji{
+    top:290px;
+    right:140px;
+    width:224px;
+    height:102px;
+    background:url("../images/register/info-big.png") no-repeat;
+    line-height: 25px;
+}
+#middle section#register #register_ul li .error-shouji{
+    top:300px;
+    right:200px;
+}
+#middle section#register #register_ul li .succ-shouji{
+    top:300px;
+    right:200px;
+}
+/*短信验证码*/
+#middle section#register #register_ul li .error-yanzhengma{
+    top:355px;
+    right:70px;
+}
+
+#middle section#register #register_ul li .kuang{
+    outline:medium;
+    border:1px solid #ccc;
+    padding-left: 5px;
+    width: 275px;
+    height: 35px;
+    font-size: 15px;
+}
+#middle section#register #register_ul li #yonghu{
+    background: url("../images/register/yonghu.png") no-repeat 255px center;
+}
+#middle section#register #register_ul li #mima1{
+    background: url("../images/register/mima.png") no-repeat 255px center;
+}
+#middle section#register #register_ul li #mima2{
+    background: url("../images/register/mima.png") no-repeat 255px center;
+}
+#middle section#register #register_ul li #shouji{
+    background: url("../images/register/sj.png") no-repeat 255px center;
+}
+#middle section#register #register_ul li #email{
+    width: 170px;
+}
+#middle section#register #register_ul li #duanxin,#middle section#register #register_ul li #shouji{
+    width: 130px;
+}
+#middle section#register #register_ul li #yanzhengma{
+    padding:7px;
+    border:1px solid #ddd;
+    outline:medium;
+    margin-left: 10px;
+}
+#middle section#register #register_ul li #tijiao{
+    outline:medium;
+    border:0;
+    width: 270px;
+    height: 36px;
+    background: url("../images/register/zhuce1.png") no-repeat 0 0;
+    cursor: pointer;
+}
+#middle section#register #register_ul li #tijiao:hover{
+    opacity: 0.9;
+    filter:alpha(opacity=90);
+}
+#middle section#register #register_ul .year{
+    margin-left: -7px;
+    width: 100px;
+}
+#middle section#register #register_ul li:nth-child(8),#middle section#register #register_ul li:last-child{
+    margin-left:200px;
+}
+#middle section#register .shoujizc{
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    margin-top: 35px;
+    vertical-align: top;
+    border: 1px solid #d7dcd6;
+    background-color: #fafff9;
+}
+#middle section#register .shoujizc .shoujizc_top{
+    width: 95%;
+    margin: 20px auto 0 auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d7dcd6;
+    text-align: center;
+}
+#middle section#register .shoujizc .shoujizc_top span{
+    width: 115px;
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align:top;
+    margin-top: 10px;
+    display: inline-block;
+}
+#middle section#register .shoujizc .shoujizc_bottom{
+    display: inline-block;
+    color:#a2a39e;
+    text-align: center;
+    padding-top: 20px;
+}
+#middle section#register .shoujizc .shoujizc_bottom .dahong{
+    color:#a45455;
+    font-size: 20px;
+    font-weight: bold;
+}
+#footer{
+    width: 100%
+    height: 100px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+#footer footer{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    color:#333
+}
+#footer footer ul{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#footer footer li{
+    display: inline-block;
+    border-right:1px solid #863386;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#footer footer li:last-child{
+    border-right:0;
+}
+#footer footer li a{
+    color:#333;
+}
+.loading{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,0);
+    width:180px;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    background: -ms-linear-gradient(top,#fff,#eee);        /* IE 10 */
+    background:-moz-linear-gradient(top,#fff, #eee);/*火狐*/
+    background:-webkit-gradient(linear,0% 0%,0% 100%,from(#fff),to(#eee));/*谷歌*/
+    background: -webkit-gradient(linear,0% 0%,0% 100%,from(#fff),to(#eee));      /* Safari 4-5, Chrome 1-9*/
+    background: -webkit-linear-gradient(top,#fff,#eee);   /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(top,#fff,#eee);  /*Opera 11.10+*/
+    border-radius: 10px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    text-indent: 30px;
+    display: none;
+}
+.loading .zhengzai{
+    background: url("../images/register/ajax-loader.gif") no-repeat 5px center;
+}
+.loading .wancheng{
+    background: url("../images/register/wancheng.png") no-repeat 5px center;
+}
+
